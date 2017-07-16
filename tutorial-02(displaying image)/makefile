@@ -1,13 +1,13 @@
 CXX = gcc
 
 CFLAGS = -Wall -pedantic -Werror
-LFLAGS = `sdl2-config --cflags --libs`
+LFLAGS = `sdl2-config --cflags --libs` -lSDL2 -lSDL2_image
 
 BLDDIR = build
 
 # object files to build.
-OBJS = $(addprefix $(BLDDIR)/, init.o input.o main.o)
-PROG = tutorial01.out
+OBJS = $(addprefix $(BLDDIR)/, init.o input.o graphics.o main.o)
+PROG = tutorial02.out
 
 # top-level rule to create the program.
 all: dir $(BLDDIR)/$(PROG)

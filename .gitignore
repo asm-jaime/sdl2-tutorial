@@ -5,6 +5,7 @@
 **/debug/
 **/build/
 **/release/
+z_buff/
 
 # Object files
 *.o
