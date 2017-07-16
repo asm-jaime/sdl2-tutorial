@@ -7,7 +7,7 @@ BLDDIR = build
 
 # object files to build.
 OBJS = $(addprefix $(BLDDIR)/, init.o input.o main.o)
-PROG = tutorial01.com
+PROG = tutorial01.out
 
 # top-level rule to create the program.
 all: dir $(BLDDIR)/$(PROG)
