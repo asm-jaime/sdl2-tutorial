@@ -1,6 +1,6 @@
-# Opening a Window
+# opening a window
 
-This tutorial will explain how to open a window in SDL2.
+This tutorial will explain how to open a window in SDL2. (based on http://www.parallelrealities.co.uk/2011/09/basic-game-tutorial-1-opening-window.html)
 
 ## build it
   * `make`
