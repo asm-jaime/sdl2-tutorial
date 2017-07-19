@@ -4,7 +4,7 @@ This tutorial explain how to display an image in SDL2.
 (based on http://www.parallelrealities.co.uk/2011/09/basic-game-tutorial-2-displaying-image.html).
 
 ## build it
-  * `make`
+  * `make && ./build/tutorial02.out`
 
 ## control
   * pressing `Escape` or  closing the window for exit the program.
